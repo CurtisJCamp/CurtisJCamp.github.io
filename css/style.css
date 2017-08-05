@@ -1,0 +1,151 @@
+body {
+  font-family: 'Bungee', cursive;
+  background-color: #6441a5;
+}
+
+.twitchlogo {
+  max-width: 400px;
+  max-height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+}
+
+.online {
+  max-width: 390px;
+  max-height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 2px solid black;
+  padding-bottom: 15px;
+  color: black;
+}
+.onlineStreamers {
+  max-width: 400px;
+  max-height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+  color: black;
+}
+.offline {
+  max-width: 400px;
+  max-height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 2px solid #BEBEBE;
+  padding-bottom: 15px;
+  color: #BEBEBE;
+}
+.offlineText {
+  color: #BEBEBE;
+}
+.offlineText:hover {
+  color: black;
+}
+.offlineStreamers {
+  max-width: 400px;
+  max-height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+  color: #BEBEBE;
+}
+.streamerCard {
+  max-width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+}
+.logo {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 25px;
+}
+.preview {
+  max-width: 256px;
+  max-height: 144px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2px;
+}
+.status {
+  color: black;
+  font-family: 'Josefin Slab', serif;
+}
+.game {
+  color: black;
+}
+.viewers {
+  font-size: 70%;
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  margin-right: auto;
+}
+
+a:link {
+  color: #6441a5;
+  text-decoration: none;
+}
+a:visited {
+  color: #6441a5;
+}
+a:hover {
+  color: black;
+  font-size: 105%;
+}
+
+.bannerImage {
+  opacity: 1;
+  max-width: 368px;
+  max-hieght: 207px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+card {
+  border-radius: 398px;
+}
+.previewText {
+  color: black;
+}
+
+.bannerContainer {
+  position: relative;
+}
+.middle {
+  transition: .5s ease;
+  width: 75%;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.hoverText {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+}
+.bannerContainer:hover .bannerImage {
+  opacity: 0.3;
+}
+
+.bannerContainer:hover .middle {
+  opacity: 1;
+}
+.dotIcon {
+  color: #e60000;
+  text-shadow: 1px 1px 1px #ccc;
+}

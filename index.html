@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Destiny Twitch Streaming App</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Raleway'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <!--
+User Story: I can see whether Free Code Camp is currently streaming on Twitch.tv.
+
+User Story: I can click the status output and be sent directly to the Free Code Camp's Twitch.tv channel.
+
+User Story: if a Twitch user is currently streaming, I can see additional details about what they are streaming.
+-->
+
+<head>
+
+  <link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Hairline|Josefin+Slab" rel="stylesheet">
+
+  <title>Destiny Twitch Streamers App</title>
+</head>
+<div class="container-fluid">
+  <nav class="navbar sticky-top navbar-toggleable-md navbar-light bg-faded">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <a class="navbar-brand" href="https://www.linkedin.com/in/curtisjcamp/" target="_blank">CurtisJCamp <i class="fa fa-superpowers" aria-hidden="true"></i>
+</a>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" target="_blank" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Contact
+        </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="https://www.linkedin.com/in/curtisjcamp/" target="_blank">LinkedIn</a>
+              <a class="dropdown-item" href="https://github.com/CurtisJCamp" target="_blank">Github</a>
+              <a class="dropdown-item" href="https://www.freecodecamp.com/curtisjcamp" target="_blank">FreeCodeCamp</a>
+            </div>
+          </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<!-- Start of Code -->
+
+<a href="https://www.twitch.tv/directory/game/Destiny" target="_blank"><img src="https://c1.staticflickr.com/5/4342/35977747600_e8e1f4bef6_o.jpg"
+    class="twitchlogo" alt="Twitch Logo" /></a>
+
+
+<h1 class="text-center online">Online <i class="fa fa-twitch" aria-hidden="true"></i><i class="fa fa-level-down" aria-hidden="true"></i>
+  </h1>
+
+
+<div id="onlineStreamerCard">
+</div>
+<ul class="list" id="onlineList">
+  <li class="onlineStreamers" id="onlineStreamer"></li>
+</ul>
+<!-- List from Ajax on Streamers with previews next to their names -->
+
+
+<h1 class="text-center offline">Offline <i class="fa fa-frown-o" aria-hidden="true"></i><i class="fa fa-level-down" aria-hidden="true"></i>
+</h1>
+<ul>
+  <div class="">
+    <li class="offlineStreamers" id="offlineStreamer"></li>
+  </div>
+</ul>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
